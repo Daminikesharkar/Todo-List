@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+}
+.outer-container{
+    height: 100vh;
+    align-items: center;
+    background-image: url(background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    max-width: 600px;
+    padding: 60px 0;
+    color: white;
+}
+.innerdiv{
+    max-width:100%;
+    padding: 0px;
+    color: white;
+    margin-top: 20px;
+}
+#addednoteid{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+input{
+    border:none;
+}
+input[type='text']{
+    width: 70%;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 1.2rem;
+    margin-right: -4px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    cursor:pointer;
+}
+input[type='text']:disabled{
+    cursor:default;
+    color: rgb(227, 213, 213);
+    background-color: rgb(147, 135, 135);
+    width:100px;
+}
+input[type='button']{
+    padding: 7px;
+    font-size: 1.04rem;
+    color:white;
+    margin: 0 -3px;
+}
+
+button {
+    padding: 5px;
+    font-size: 1.04rem;
+    color:white;
+    background-color: #e9adad;
+    margin: 2px;
+    border: none;
+}
+
+#add-btn{
+    margin: 0px;
+    background-color: #e9adad;
+}
+
+@media screen and (max-width:450px) {
+    .new-tasks{
+        display: inline;
+    }
+}
